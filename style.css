@@ -1,0 +1,81 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Courier New', Courier, monospace;
+}
+html,
+body{
+    height: 100%;
+    width: 100%;
+}
+main{
+    height: 100%;
+    width: 100%;
+    background-color: rgb(219, 207, 151);
+}
+nav{
+    padding: 50px 100px;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+nav .part2{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 60px;
+}
+nav h2{
+    font-size: 50px;
+    
+}
+nav a{
+    font-size: 34px;
+    color: rgb(111, 31, 31);
+    text-decoration: none;
+}
+section .hero-text1{
+    padding-left: 100px;
+    padding-right: 200px;
+    display: flex;
+    align-items: flex-start;
+    justify-content: space-between;
+}
+.hero-text1 h1{
+    font-size: 100px;
+    text-transform: capitalize;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+.hero-text1 .video{
+    height: 50px;
+    width: 300px;
+    background-color: rgba(216, 217, 181, 0.995);
+    border-radius: 50px;
+}
+section .hero-text2{
+    padding-left: 100px;
+    display: flex;
+    align-items: flex-end;
+    justify-content: space-between;
+}
+.hero-text2 h1{
+    font-size: 150px;
+    text-transform: capitalize;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+.hero-text2 p{
+    padding-right: 10px;
+    font-size: 30px;
+    width: 900px;
+}
+.image{
+    height: 300px;
+    width: 500px;
+    margin-left: 50%;
+    margin-top: 50px;
+    transform: translate(-50%);
+    background-color: rebeccapurple;
+    background-image: url(https://thumbs.dreamstime.com/b/espresso-coffee-cup-beans-vintage-table-90374872.jpg);
+}
